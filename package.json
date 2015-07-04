@@ -1,0 +1,26 @@
+{
+    "name": "somata-kefir",
+    "version": "0.0.1",
+    "description": "Wrap Somata service events in a Kefir stream",
+    "homepage": "http://github.com/somata/somata-kefir",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/somata/somata-kefir.git"
+    },
+    "author": {
+        "name": "Sean Robertson",
+        "org": "Prontotype",
+        "url": "http://prontotype.us/"
+    },
+    "keywords": [
+        "somata",
+        "kefir"
+    ],
+    "main": "lib/index.js",
+    "dependencies": {
+        "kefir": "2.7.x",
+        "somata": "0.1.x"
+    }
+}
+
+
