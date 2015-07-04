@@ -1,6 +1,6 @@
 {
     "name": "somata-kefir",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Wrap Somata service events in a Kefir stream",
     "homepage": "http://github.com/somata/somata-kefir",
     "repository": {
