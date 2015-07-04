@@ -7,9 +7,7 @@ Wrap Somata service events in a Kefir stream
 somata = require 'somata-kefir'
 
 client = new somata.Client
-
 motion$ = client.on('maia:smartthings', 'motion')
-gotMotion = (m) -> console.log '[m]', m
 
 lightOn = -> client.remote 'maia:hue', 'turn_on', 2
 lightOff = -> client.remote 'maia:hue', 'turn_off', 2
