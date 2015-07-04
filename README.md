@@ -4,7 +4,7 @@ Wrap Somata service events in a Kefir stream
 ## Usage
 
 ```coffee
-somata = require './'
+somata = require 'somata-kefir'
 
 client = new somata.Client
 
