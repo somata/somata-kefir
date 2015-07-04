@@ -17,9 +17,12 @@
         "kefir"
     ],
     "main": "lib/index.js",
+    "scripts": {
+        "prepublish": "coffee -c -o lib src"
+    },
     "dependencies": {
         "kefir": "2.7.x",
-        "somata": "0.1.x"
+        "somata": "0.0.x"
     }
 }
 
