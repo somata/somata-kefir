@@ -1,6 +1,6 @@
 {
     "name": "somata-kefir",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Wrap Somata service events in a Kefir stream",
     "homepage": "http://github.com/somata/somata-kefir",
     "repository": {
@@ -18,7 +18,7 @@
     ],
     "main": "lib/index.js",
     "scripts": {
-        "prepublish": "coffee -c -o lib src"
+        "prepublish": "coffee -o lib -c src"
     },
     "dependencies": {
         "kefir": "2.7.x",
